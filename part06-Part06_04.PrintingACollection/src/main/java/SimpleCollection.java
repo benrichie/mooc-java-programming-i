@@ -19,4 +19,16 @@ public class SimpleCollection {
         return this.elements;
     }
     
+    public String toString(){
+        String printOutput = "The collection has " + " ..." + " elements: ";
+        
+        if(elements.isEmpty()){
+            return "empty :( ";
+        }
+        
+        String element = "";
+        
+        for()
+        return printOutput + "";
+    }
 }
