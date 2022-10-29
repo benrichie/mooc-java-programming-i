@@ -45,6 +45,6 @@ public class SimpleCollection {
             elementString = "element:\n";
         }
         return printString + " has " + elements.size() + " " + elementString + printValues;
-    }
+    }// next
 
-}//miss
+}
