@@ -47,4 +47,4 @@ public class SimpleCollection { // create class, create variables
         return printString + " has " + elements.size() + " " + elementString + printValues;
     }
 
-}
+}// MISS 
