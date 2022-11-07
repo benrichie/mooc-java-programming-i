@@ -22,17 +22,28 @@ public TextUI(Scanner scanner, SimpleDictionary simpleDictionary) {
 
 public void start(){
     
-   System.out.println("Command: ");
+  
     
    while(true){
-       if(scanner.equals("end")){
+       System.out.println("Command: ");
+       String scn = scanner.nextLine();
+       if(scn.equals("end")){
            System.out.println("Bye bye!");
            break;
+       }
+       
+       if(scn.equals("add")){
+           
+           System.out.println("Word: ");
+           String wrd = scanner.nextLine();
+           
+           System.out.println("Translation: ");
+           String trns = scanner.nextLine();
+           
+           this.simpleDictionary.add(wrd, trns);
        } else {
            System.out.println("Unknown command");
        }
-   
-       
    }
 }
 
