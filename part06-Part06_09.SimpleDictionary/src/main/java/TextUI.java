@@ -9,7 +9,7 @@ public class TextUI {
         this.scanner = scanner;
         this.simpleDictionary = simpleDictionary;
     }
-//commitx
+//commit
     public void start() {
 
         while (true) {
