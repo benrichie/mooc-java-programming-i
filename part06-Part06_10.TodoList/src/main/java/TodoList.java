@@ -8,6 +8,9 @@
  *
  * @author benri
  */
+
+
+// this is the array object where we have array to hold values & methods to run functions 
 import java.util.ArrayList;
 public class TodoList {
     
@@ -23,7 +26,7 @@ public class TodoList {
     
     public void print(){
         for(String todo: Todo){
-            System.out.println(this.Todo.indexOf(todo)+ 1);
+            System.out.println((this.Todo.indexOf(todo)+ 1)+ ": " + todo );
         }
     }
     
