@@ -26,7 +26,7 @@ public class Room {
         return this.persons.isEmpty();
     }
     
-    // returns a list of persons in the room
+    // returns a list of persons in the rooom
     public ArrayList<Person> getPersons(){
         return this.persons;
     }
