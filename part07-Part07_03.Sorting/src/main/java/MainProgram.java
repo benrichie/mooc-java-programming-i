@@ -5,6 +5,7 @@ public class MainProgram {
         // write your test code here
         int[] array = {3, 1, 5, 99, 3, 12};
     }
+<<<<<<< HEAD
     
     public static int smallest(int[]  array){
         int smallest = array[0];
@@ -30,5 +31,7 @@ public class MainProgram {
         return index;
     }
     
+=======
+>>>>>>> 9a3dda1c293fb44dbbc9e0d0455a0f6edf25151e
 
 }
