@@ -28,8 +28,7 @@ public class UserInterface {
             if(input.equals("quit")){
                 break;
             }
-            // i dont understand how split is being used here
-            // why is the input coming from command
+
             String[] parts = input.split(" ");
             String command = parts[0];
             
